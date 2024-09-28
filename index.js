@@ -33,6 +33,8 @@ app.post("/submit", (req, res) => {
     res.redirect("/");
 });
 
+// clear the array of posts
+
 app.post('/clear', (req, res) => {
     arrayOfPosts = [];
     res.redirect('/');
